@@ -1,5 +1,9 @@
 package client;
 
+import burger.Bacon;
+import burger.BurgerDecorator;
+import burger.Egg;
+import burger.PlainBurger;
 import element.AdultCat;
 import element.BabyCat;
 import element.Element;
@@ -12,8 +16,15 @@ import java.util.Collections;
 import java.util.List;
 
 public class Main {
+    private static void print_title(String title){
+        System.out.println("========================================================================");
+        System.out.println(title.toUpperCase());
+        System.out.println("========================================================================");
+    }
+
     public static void main(String[] args){
         // Visitor Pattern
+        print_title("Visitor Pattern");
 
         // list of zoo staff members
         List<Visitor> zooStaff = new ArrayList<>();
@@ -51,5 +62,18 @@ public class Main {
                     staffMember.getName() + " and is now " + cat.getMood() + ".\n");
             i++;
         }
+
+        // BurgerDecorator Pattern
+        print_title("BurgerDecorator Pattern");
+
+        System.out.println("Welcome to Tyler, Sam and UB's Burger Joint!");
+        System.out.println("We are preparing your burger...");
+
+        // create the burger
+        BurgerDecorator burger = new Bacon(new Egg(new PlainBurger()));
+
+        // print burger description and cost
+        System.out.println("Here is your burger. It contains a " + burger.getDescription());
+        System.out.println("Thank you for your business! Your total is $" + burger.getCost() + ".");
     }
 }

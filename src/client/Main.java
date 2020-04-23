@@ -23,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        // Visitor Pattern
+        // visitor pattern
         print_title("Visitor Pattern");
 
         // list of zoo staff members
@@ -63,7 +63,7 @@ public class Main {
             i++;
         }
 
-        // BurgerDecorator Pattern
+        // decorator pattern
         print_title("BurgerDecorator Pattern");
 
         System.out.println("Welcome to Tyler, Sam and UB's Burger Joint!");

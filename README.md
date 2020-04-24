@@ -9,3 +9,4 @@ We used Visitor pattern to model a zoo with different types of zookeepers. Depen
 
 ### Decorator Pattern
 We used Decorator pattern to model the building of a hamburger. Starting with a Plain Burger, this burger can be decorated, or enhanced, with bacon and an egg, and the cost can be calculated using this pattern.
+![Decorator](diagrams/decorator.png)

@@ -221,6 +221,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="element" />
       <option name="MAIN_CLASS_NAME" value="element.AdultCatTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,6 +260,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="element" />
       <option name="MAIN_CLASS_NAME" value="element.BabyCatTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,6 +275,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="burger" />
       <option name="MAIN_CLASS_NAME" value="burger.BurgerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

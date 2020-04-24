@@ -14,7 +14,7 @@ public class BabyCat implements Element {
     public void accept(Visitor v){ v.visit(this); }
 
     @Override
-    public void setStatus(String mood) { this.mood  = mood; }
+    public void setMood(String mood) { this.mood  = mood; }
 
     @Override
     public String getMood() { return mood; }

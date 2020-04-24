@@ -12,12 +12,12 @@ public class Zookeeper implements Visitor {
 
     @Override
     public void visit(AdultCat adultCat){
-        adultCat.setStatus("hungry and angry");
+        adultCat.setMood("hungry and angry");
     }
 
     @Override
     public void visit(BabyCat babyCat){
-        babyCat.setStatus("annoyed and frightened");
+        babyCat.setMood("annoyed and frightened");
     }
 
     @Override

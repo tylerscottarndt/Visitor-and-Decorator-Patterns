@@ -4,7 +4,7 @@ import visitor.Visitor;
 
 public interface Element {
     void accept(Visitor v);
-    void setStatus(String status);
+    void setMood(String mood);
     String getMood();
     String getName();
 }

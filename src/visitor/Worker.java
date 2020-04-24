@@ -12,12 +12,12 @@ public class Worker implements Visitor{
 
     @Override
     public void visit(AdultCat adultCat) {
-        adultCat.setStatus("fed, groomed, and healthy");
+        adultCat.setMood("fed, groomed, and healthy");
     }
 
     @Override
     public void visit(BabyCat babyCat) {
-        babyCat.setStatus("happy and playful");
+        babyCat.setMood("happy and playful");
     }
 
     @Override
